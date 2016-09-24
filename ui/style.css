@@ -1,22 +1,40 @@
 body {
     font-family: sans-serif;
     background-color: lightgrey;
-    margin-top: 75px;
+text-color:white;
+    
 }
 
-.center {
-    text-align: center;
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th {
+    background-color: black;
+    color: white;
+}
+img{
+margin-top:0px;
+float:right;
+width:120px;
+height:130px;
+border:1px;
+}
+fieldset{
+margin-left:250px;
+margin-right:250px;
+background-color:white;
 }
 
-.text-big {
-    font-size: 300%;
+h2{
+margin-bottom:0px;
 }
-
-.bold {
-    font-weight: bold;
+hr{
+margin-top:0px;
 }
-
-.img-medium {
-    height: 200px;
-}
-
